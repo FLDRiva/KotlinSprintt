@@ -11,11 +11,11 @@ fun setSail() {
     println("Повреждения корпуса")
     val damage = readln()
     if ((damage != SERIOUS_DAMAGE) && (damage != WEAK_DAMAGE)) {
-        println(true)
-    } else if ((damage != SERIOUS_DAMAGE) && (damage != NO_DAMAGE)) {
-        println(true)
-    } else {
         println(false)
+    } else if ((damage != SERIOUS_DAMAGE) && (damage != NO_DAMAGE)) {
+        println(false)
+    } else {
+        println(true)
     }
 
     println("текущая численность экипажа")
