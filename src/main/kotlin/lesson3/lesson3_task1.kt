@@ -1,10 +1,11 @@
 package lesson3
 
-val name = "Андрей"
-var welcome = "Добрый день"
-
 fun main() {
 
-    println("$welcome, $name!")
+    val name = "Андрей"
+    val welcomeDay = "Добрый день"
+    val welcomeNight = "Доброй ночи"
+    println("$welcomeDay, $name!")
+    println("$welcomeNight, $name!")
 
 }
