@@ -6,8 +6,8 @@ fun main() {
     val human2 = 4
     val human3 = 3
     val human4 = 5
-    val average = human1.toDouble() + human2.toDouble() + human3.toDouble() + human4.toDouble() / 4
+    val average = human1 + human2 + human3 + human4 / 4
 
-    println(average)
+    println(average.toDouble())
 
 }
