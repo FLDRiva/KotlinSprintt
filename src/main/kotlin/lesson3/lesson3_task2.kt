@@ -1,18 +1,16 @@
 package lesson3
 
-val name = "Татьяна"
+const val name = "Татьяна"
 var surname = "Андреева"
-val patronymic = "Сергеевна"
+const val patronymic = "Сергеевна"
 var age = 20
 
 fun main() {
-
     println("$surname $name $patronymic, $age лет")
-    println(marriage())
+    println(getMarried())
 }
 
-fun marriage() {
-
+fun getMarried() {
     surname = "Сидорова"
     age = 22
     println("$surname $name $patronymic, $age года")
