@@ -5,11 +5,11 @@ fun main() {
     var moveOut = "E2"
     var moveIn = "E4"
     var number = "номер хода №1"
-    println("$number - откуда $moveOut куда $moveIn")
+    println("откуда $moveOut, куда $moveIn, $number")
 
     moveOut = "D2"
     moveIn = "E2"
     number = "номер хода №2"
-    println("$number - откуда $moveOut куда $moveIn")
+    println("откуда $moveOut, куда $moveIn, $number")
 
 }
