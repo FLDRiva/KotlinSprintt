@@ -8,6 +8,7 @@ fun main() {
     val tableTomorrow = 9
     val freeTableToDay = tableToday > TOTAL_TABLES
     val freeTableToTomorrow = tableTomorrow < TOTAL_TABLES
+
     println("Доступность столиков на сегодня: $freeTableToDay " +
             "\nДоступность столиков на завтра: $freeTableToTomorrow")
 }
