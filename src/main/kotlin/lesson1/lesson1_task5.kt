@@ -5,7 +5,7 @@ fun main() {
 
     println(timeOfGagarin())
 }
-fun timeOfGagarin (): String {
+    fun timeOfGagarin(): String {
 
     val minute = (seconds % 3600) / 60
     val second = seconds % 60
