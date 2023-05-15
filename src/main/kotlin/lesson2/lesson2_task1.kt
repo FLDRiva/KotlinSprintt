@@ -6,8 +6,7 @@ fun main() {
     val human2 = 4
     val human3 = 3
     val human4 = 5
-    val average = human1 + human2 + human3 + human4 / 4
+    val average = (human1 + human2 + human3 + human4) / 4.0
 
-    println(average.toDouble())
-
+    println(String.format("%.2f", average))
 }
